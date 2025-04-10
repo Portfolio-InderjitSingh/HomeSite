@@ -193,7 +193,7 @@ nav {
       text-align: center; /* Center text in mobile menu */
       width: 100%; /* Full width */
       position: absolute;
-      top: 7rem; /* Position below the nav bar */
+      top: 6rem; /* Position below the nav bar */
       left: 0; /* Cover entire width */
       background-color: #fff;
       padding: 2.24rem 0; /* converted rem values */
@@ -295,8 +295,8 @@ body {
 .hero h1 {
 font-family: var(--font-nunito);
   font-family: "Lora", serif;
-  font-size: 3.54rem; /* Slightly smaller heading */
-  font-weight: 400;
+  font-size: 3.5rem; /* Slightly smaller heading */
+  font-weight: 500;
   word-spacing: 0.6rem;
   color: var(--colour-main);;
   line-height: 1.6; /* Adjusts line height for better spacing */
@@ -615,7 +615,7 @@ gap: 0.2rem;
     margin-top: 3.28rem;
     margin-bottom: 3.2rem;
       font-size: 3rem;
-      font-weight: 400;
+      font-weight: 500;
       word-spacing: 0.4rem;
       padding: 0 0 0 0;
   }
