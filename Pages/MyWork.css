@@ -41,6 +41,14 @@ body {
     margin-left: 40px;
     margin-right: 40px;
   }
+
+  
+  @media screen and (max-width:500px) {
+    .work-grid {
+      margin-left: 34px;
+      margin-right: 40px;
+    }
+  }
   
   /* Work Card */
   .work-card {
