@@ -37,7 +37,7 @@
   --colour-bg: #F8F9FF;
   --colour-main: #1E293B;
   --colour-dark: color: #02172b;
-  --colour-fade:  #C0CFD9;
+  --colour-fade:  #c0d1db;
 
 
 }
@@ -612,7 +612,7 @@ gap: 0.2rem;
   }
 
   .hero h1 {
-    margin-top: 3.8rem;
+    margin-top: 3.6rem;
     margin-bottom: 3.3rem;
       font-size: 3rem;
       font-weight: 500;
@@ -626,7 +626,7 @@ gap: 0.2rem;
     padding: 0 0 0 0;
     letter-spacing: 0.02rem;
     word-spacing: 0.3rem;
-    margin-bottom: 4.68rem;
+    margin-bottom: 4.56rem;
   }
 
 
@@ -1158,7 +1158,7 @@ footer {
   line-height: 1.8;
   letter-spacing: 0.1rem;
   word-spacing: 0.2rem;
-  margin: 30px 14px 0 14px;  /* top , right , bottom, left */
+  margin-top: 30px ; 
   max-width: 70%;
 
 }
@@ -1303,6 +1303,7 @@ color: #2563eb;  /* Darker blue on hover */
 
   .branding .description {
     max-width: 100%;
+    margin: 30px 12px 0 12px;  /* top , right , bottom, left */
   }
 
 
