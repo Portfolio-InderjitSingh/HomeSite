@@ -36,19 +36,19 @@ body {
   /* Grid for Cards */
   .work-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 100px;
     margin-left: 40px;
     margin-right: 40px;
   }
 
   
-  @media screen and (max-width:500px) {
+  /* @media screen and (max-width:500px) {
     .work-grid {
       margin-left: 34px;
       margin-right: 40px;
     }
-  }
+  } */
   
   /* Work Card */
   .work-card {
@@ -128,7 +128,7 @@ body {
   }
   
   .work-content h3 {
-    margin: 0 0 10px;
+    margin: 8px 0 10px;
     font-size: 1.2rem;
     color: #1E293B;;
   }
@@ -143,7 +143,7 @@ body {
   .services-button {
     display: block;
     margin: 0 auto;
-    margin: 0rem 4rem 6rem 4rem;
+    margin: 0rem 2rem 6rem 2rem;
     background-color:#1E293B;
     color: white;
     font-family: var(--font-nunito);
@@ -151,7 +151,7 @@ body {
     font-weight: 700;
     font-style: normal;
     word-spacing: 0.24rem;
-    font-size: 1.2rem; /* converted rem values */
+    font-size: 1rem; /* converted rem values */
     padding: 0.8rem 5.2rem; /* converted rem values */
     border: 0.3rem solid;
     text-decoration: none;
