@@ -8,7 +8,7 @@ body {
   
   /* Work Section Layout */
   .work-section {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   
   .work-container {
@@ -129,12 +129,12 @@ body {
   
   .work-content h3 {
     margin: 8px 0 10px;
-    font-size: 1.2rem;
+    font-size: 1.14rem;
     color: #1E293B;;
   }
   
   .work-content p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: #555;
     line-height: 1.6;
   }
