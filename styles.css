@@ -631,8 +631,8 @@ gap: 0.2rem;
 
 
   .profile-image {
-      width: 20rem;  /*adjusts image size */
-      height: 20rem;
+      width: 18.8rem;  /*adjusts image size */
+      height: 18.8rem;
       margin-top: -1rem;
   }
 
@@ -906,10 +906,11 @@ gap: 0.2rem;
 }
 
 .description {
-  font-family: var(--font-Libre);
-  font-size: 1.6rem;
+  font-family: var(--font-lora);
+  font-size: 1rem;
   color: var(--colour-fade);
   line-height: 1.6;
+  word-spacing: 0.26rem;
   margin-bottom: 3.6rem; /* Adjusted margin-bottom for better spacing */
 }
 
@@ -1156,8 +1157,8 @@ footer {
   font-size: 14px;
   font-weight: 400;  /* Lighter font weight for description */
   line-height: 1.8;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.16rem;
   margin-top: 30px ; 
   max-width: 70%;
 
@@ -1174,7 +1175,8 @@ footer {
 
 
 .navigation h3 {
-font-size: 16px;
+  font-family: var(--font-nunito);
+font-size: 16.6px;
 font-weight: 600;  /* Semi-bold */
 margin-bottom: 15px;
 }
@@ -1185,6 +1187,8 @@ margin-bottom: 15px;
   list-style: none;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.07rem;
+  word-spacing: 0.2rem;
 
 }
 
@@ -1211,6 +1215,7 @@ font-size: 14px;
 /* Section 3: Contact Information */
 
 .contact-info h3 {
+  font-family: var(--font-nunito);
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -1303,7 +1308,7 @@ color: #2563eb;  /* Darker blue on hover */
 
   .branding .description {
     max-width: 100%;
-    margin: 30px 12px 0 12px;  /* top , right , bottom, left */
+    margin: 30px 12px 20px 12px;  /* top , right , bottom, left */
   }
 
 

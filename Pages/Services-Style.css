@@ -6,7 +6,7 @@ body {
   }
   
   .services-section {
-    padding: 60px 20px;
+    padding: 55px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +16,10 @@ body {
   .services-container {
     max-width: 1000px;
     width: 100%;
-    background-color: white;
+    background-color: #f8f9ff;
     border-radius: 2rem;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    padding: 50px 40px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); */
+    padding: 0px 20px;
     text-align: center;
   }
   
@@ -34,15 +34,15 @@ body {
   .services-subtitle {
     font-size: 1rem;
     color: #777;
-    margin-bottom: 60px;
+    margin-bottom: 66px;
   }
   
   .service-card {
-    background-color: #f8f9ff;
+    background-color: white;
     border-radius: 1.5rem;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     padding: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: left;
   }
   
@@ -56,5 +56,35 @@ body {
     font-size: 1rem;
     line-height: 1.7;
     color: #222222;
+  }
+  
+
+  .services-button {
+    display: block;
+    margin: 0 auto;
+    margin: 0rem 4rem 6rem 4rem;
+    background-color:#1E293B;
+    color: white;
+    font-family: var(--font-nunito);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    word-spacing: 0.24rem;
+    font-size: 1.2rem; /* converted rem values */
+    padding: 0.8rem 5.2rem; /* converted rem values */
+    border: 0.3rem solid;
+    text-decoration: none;
+    letter-spacing: 0.08rem;
+    word-spacing: 0.4rem;
+    text-align: center;
+    border-radius: 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1rem rgba(30, 58, 102, 0.2); /* More visible shadow */
+    transition: background-color 0.04s ease;
+  }
+
+  .services-button:hover {
+    background-color: #f8fbff; /* Darker blue */
+    color: var(--colour-main);
   }
   
