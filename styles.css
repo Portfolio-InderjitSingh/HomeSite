@@ -618,13 +618,13 @@ gap: 0.2rem;
   .hero h1 {
     margin-top: 3.6rem;
     margin-bottom: 4.4rem;
-      font-size: 3rem;
+      font-size: 2.84rem;
       font-weight: 500;
       word-spacing: 0.6rem;
       line-height: 1.76;
       padding: 0 0 0 0;
-      margin-left: 1rem ;
-      margin-right: 1rem;
+      margin-left: 0.4rem ;
+      margin-right: 0.4rem;
   }
 
 
@@ -764,8 +764,8 @@ gap: 0.2rem;
 
 .services-button {
   display: inline-block;
-  margin-top: 7.8rem; /* converted rem values */
-  margin-bottom: -6rem;
+  margin-top: 8rem; /* converted rem values */
+  margin-bottom: -5rem;
   background-color: var(--colour-main);
   color: white;
   font-family: var(--font-nunito);
@@ -774,7 +774,7 @@ gap: 0.2rem;
   font-style: normal;
   word-spacing: 0.24rem;
   font-size: 1.48rem; /* converted rem values */
-  padding: 0.8rem 5.2rem; /* converted rem values */
+  padding: 0.8rem 8.4rem; /* converted rem values */
   border: 0.3rem solid;
   letter-spacing: 0.08rem;
   word-spacing: 0.4rem;
@@ -806,7 +806,11 @@ gap: 0.2rem;
     padding-left: 4.4rem;
     padding-right: 4.4rem;
   }
-
+  
+  .services-button {
+    margin-top: 8.4rem;
+    padding: 1rem 5rem; /* converted rem values */
+  }
 }
 
 
@@ -860,7 +864,7 @@ gap: 0.2rem;
 .about-section {
   background-color: var(--colour-main);
   padding: 8.4rem 4rem;
-  border-radius: 6rem;
+  border-radius: 5.4rem;
   overflow: hidden; /* Ensures rounded corners are not clipped by content */
 }
 
@@ -1017,7 +1021,7 @@ gap: 0.2rem;
   font-weight: 400;
   color: var(--colour-main);
   max-width: 600px;
-  margin: 0 auto 36px; /* Centered margin */
+  margin: 0 auto 38px; /* Centered margin */
   line-height: 1.5;
 }
 
@@ -1030,7 +1034,7 @@ gap: 0.2rem;
   background-color: var(--colour-main);
   color: #fff;
   letter-spacing: 0.16rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
