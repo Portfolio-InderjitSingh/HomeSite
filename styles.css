@@ -295,7 +295,7 @@ font-family: var(--font-nunito);
   font-family: "Lora", serif;
   font-size: 3.5rem; /* Slightly smaller heading */
   font-weight: 500;
-  word-spacing: 0.6rem;
+  word-spacing: 0.76rem;
   color: var(--colour-main);;
   line-height: 1.6; /* Adjusts line height for better spacing */
   margin-bottom: 3.8rem;
@@ -305,14 +305,13 @@ font-family: var(--font-nunito);
 
 
 .hero p {
-font-size: 1.74rem;
+font-size: 1.84rem;
   color: var(--colour-main);
-  line-height: 1.8;
+  line-height: 1.86;
   letter-spacing: 0.1rem;
   word-spacing: 0.1rem;
   margin-bottom: 5rem;
   max-width: 50rem;
-  max-width: 58%;
 }
 
 
@@ -366,14 +365,14 @@ color: var(--colour-main);
 .social-icons {
   display: flex;
   margin-top: 0.46rem;
-  margin-left: 5rem;
-  gap: 3.3rem; /* Space between icons */
+  margin-left: 4.8rem;
+  gap: 3rem; /* Space between icons */
   align-items: center;
 }
 
 .social-icons img {
-  max-width: 29px;  /* Adjust size as needed */
-  max-height: 29px;
+  max-width: 30px;  /* Adjust size as needed */
+  max-height: 30px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -385,9 +384,9 @@ color: var(--colour-main);
 
 
 .profile-image {
-width: 34rem;
-height: 34rem;
-margin-top: 4.6rem;
+width: 33rem;
+height: 33rem;
+margin-top: 6.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -605,6 +604,7 @@ gap: 0.2rem;
 
 
   .hero .job {
+    display: block;
     font-size: 1.16rem;
     font-weight: 500;
     word-spacing: 0.52rem;
@@ -617,15 +617,19 @@ gap: 0.2rem;
 
   .hero h1 {
     margin-top: 3.6rem;
-    margin-bottom: 3.3rem;
+    margin-bottom: 4.4rem;
       font-size: 3rem;
       font-weight: 500;
-      word-spacing: 0.4rem;
+      word-spacing: 0.6rem;
+      line-height: 1.76;
       padding: 0 0 0 0;
+      margin-left: 1rem ;
+      margin-right: 1rem;
   }
 
 
   .hero p {
+    display: none;
     font-size: 1.58rem;
     color: #343c44;
     padding: 0 0 0 0;
