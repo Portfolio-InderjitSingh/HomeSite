@@ -305,13 +305,14 @@ font-family: var(--font-nunito);
 
 
 .hero p {
-font-size: 1.8rem;
+font-size: 1.74rem;
   color: var(--colour-main);
-  line-height: 1.7;
+  line-height: 1.8;
   letter-spacing: 0.1rem;
   word-spacing: 0.1rem;
-  margin-bottom: 5.6rem;
+  margin-bottom: 5rem;
   max-width: 50rem;
+  max-width: 58%;
 }
 
 
@@ -625,11 +626,12 @@ gap: 0.2rem;
 
 
   .hero p {
-    font-size: 1.64rem;
+    font-size: 1.58rem;
+    color: #343c44;
     padding: 0 0 0 0;
     letter-spacing: 0.02rem;
     word-spacing: 0.3rem;
-    margin-bottom: 4.6rem;
+    margin-bottom: 4.54rem;
   }
 
 
